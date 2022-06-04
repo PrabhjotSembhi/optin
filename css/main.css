@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  padding: 2.5em 1.2em 1.5em 1.2em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.2em;
+}
+
+.subhead {
+  margin-top: 0.35em;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.2em;
+}
+
+.formWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1.8em;
+  border: solid 2px #ffc600;
+}
+
+.formWrap form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.formWrap input {
+  background-color: white;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 1.2rem;
+  padding: 0.25em;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.formWrap input[type="email"] {
+  width: 73%;
+}
+
+.formWrap input[type="submit"] {
+  width: 27%;
+  background: #ffc600;
+}
+
+.ftwrapper {
+  padding: 1.2em;
+}
+
+.ftCard {
+  background: #f0efea;
+  padding: 1.2em;
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+}
+
+.ftCard img {
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.ftTitle {
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.FtDesc {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  line-height: 1.25em;
+}
+
+@media only screen and (min-width: 600px) {
+  .hero {
+    padding: 3.5em;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.2em;
+  }
+  .subhead {
+    margin-top: 0.35em;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.2em;
+  }
+  .formWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2.5em;
+    border: solid 2px #ffc600;
+  }
+  .formWrap form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .formWrap input {
+    background-color: white;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  .formWrap input[type="email"] {
+    width: 73%;
+  }
+  .formWrap input[type="submit"] {
+    width: 27%;
+    background: #ffc600;
+  }
+  .ftwrapper {
+    padding: 3.5em;
+  }
+  .ftCard {
+    background: #f0efea;
+    padding: 2em;
+    margin-bottom: 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1em;
+  }
+  .ftCard img {
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .ftTitle {
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  .FtDesc {
+    margin-top: 0.5em;
+    font-size: 1.6em;
+    line-height: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .hero {
+    padding: 4em 1.2em 4em 1.2em;
+  }
+  h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    line-height: 1.2em;
+  }
+  .subhead {
+    margin-top: 0.35em;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.2em;
+  }
+  .formWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2.5em;
+    border: solid 2px #ffc600;
+    width: 90%;
+    margin: 4em auto 1em auto;
+  }
+  .formWrap form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .formWrap input {
+    background-color: white;
+    border: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-size: 1.6rem;
+    padding: 0.5em;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  .formWrap input[type="email"] {
+    width: 73%;
+  }
+  .formWrap input[type="submit"] {
+    width: 27%;
+    background: #ffc600;
+  }
+  .ftwrapper {
+    padding: 2.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2em;
+  }
+  .ftCard {
+    background: #f0efea;
+    padding: 1.5em 1.5em 3em 1.5em;
+    margin-bottom: 1em;
+    display: block;
+  }
+  .ftCard img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .ftTitle {
+    font-size: 1.8em;
+    margin-top: 0.5em;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+  }
+  .FtDesc {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    line-height: 1.25em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .formWrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2.5em;
+    border: solid 2px #ffc600;
+    width: 80%;
+    margin: 4em auto 1em auto;
+  }
+  .ftwrapper {
+    padding: 2.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2em;
+  }
+  .ftCard {
+    background: #f0efea;
+    padding: 1.5em 1.5em 3em 1.5em;
+    margin-bottom: 1em;
+    display: block;
+  }
+  .ftCard img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .ftTitle {
+    font-size: 2em;
+    margin-top: 0.5em;
+    font-weight: 500;
+    line-height: 1.1;
+    text-align: center;
+  }
+  .FtDesc {
+    margin-top: 0.5em;
+    font-size: 1.4em;
+    line-height: 1.25em;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    padding: 4em 1.2em 4em 1.2em;
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .ftwrapper {
+    padding: 2.5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2em;
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
